@@ -1,1 +1,1 @@
-# vet-clinic
+# veterinary clinic
