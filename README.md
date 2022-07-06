@@ -1,3 +1,3 @@
 # veterinary clinic
 
-## building a web site with React and Next
+## Building a web site with React and Next.
