@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Intro from '../components/Intro'
+import Services from '../components/Services.jsx'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
 			</Head>
 
 			<Intro />
+			<Services />
 		</div>
 	)
 }
