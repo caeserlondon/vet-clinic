@@ -1,0 +1,19 @@
+.error {
+	text-align: center;
+	margin: 100px 0 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.error h1 {
+	color: var(--accent-color);
+	font-size: 95px;
+	margin: 125px 0;
+}
+
+.error h3 {
+	color: var(--primary-color);
+	margin-bottom: 85px;
+}
