@@ -1,0 +1,31 @@
+.container {
+	width: 100%;
+	height: calc(100vh - 65px);
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+
+.card {
+	flex: 1;
+	padding: 100px;
+	padding-right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	position: relative;
+}
+.title {
+	color: var(--primary-color);
+	font-size: 45px;
+}
+.brand {
+	color: var(--accent-color);
+}
+.slogan {
+	color: var(--text-color);
+	margin-left: 24px;
+}
+.description {
+	font-size: 18px;
+}
