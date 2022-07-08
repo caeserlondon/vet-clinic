@@ -1,0 +1,33 @@
+.container {
+	height: 65px;
+	background-color: var(--main-bg-color);
+	border: var(--border);
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 100px;
+}
+
+.container h2 {
+	color: var(--primary-color);
+	font-size: 22px;
+	cursor: pointer;
+}
+.container span {
+	color: var(--accent-color);
+}
+
+.listItem {
+	display: inline;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.listItem a {
+	font-size: 17px;
+	color: var(--accent-color);
+}
+.listItem a:hover {
+	color: var(--primary-color);
+	text-decoration: overline;
+}
