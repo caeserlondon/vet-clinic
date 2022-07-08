@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Intro from '../components/Intro'
-import Services from '../components/Services.jsx'
-import styles from '../styles/Home.module.css'
+import Products from '../components/Products.jsx'
+import { data } from '../data'
 
-export default function Home() {
+export default function Home({ products }) {
+	// console.log(services)
 	return (
-		// <div className={styles.container}>
 		<div>
 			<Head>
 				<title>Vet Clinic</title>
@@ -14,7 +14,15 @@ export default function Home() {
 			</Head>
 
 			<Intro />
-			<Services />
+			<Products products={products} />
 		</div>
 	)
+}
+
+export const getStaticProps = () => {
+	const products = data
+
+	return {
+		props: { products },
+	}
 }
