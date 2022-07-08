@@ -29,5 +29,5 @@
 }
 .listItem a:hover {
 	color: var(--primary-color);
-	text-decoration: overline;
+	border-bottom: 4px solid var(--primary-color);
 }
