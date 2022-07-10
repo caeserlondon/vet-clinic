@@ -14,16 +14,16 @@ const Navbar = () => {
 					<Link href='/'>Home</Link>
 				</li>
 				<li className={styles.listItem}>
-					<Link href='/products/services'>Services</Link>
+					<Link href='/services/health-checks'>Health Checks</Link>
 				</li>
 				<li className={styles.listItem}>
-					<Link href='/products/pet-care'>Pet Care</Link>
+					<Link href='/services/pet-care'>Pet Care</Link>
 				</li>
 				<li className={styles.listItem}>
-					<Link href='/products/surgery'>Surgery</Link>
+					<Link href='/services/surgery'>Surgery</Link>
 				</li>
 				<li className={styles.listItem}>
-					<Link href='/about'>About Us</Link>
+					<Link href='/services/about-us'>About Us</Link>
 				</li>
 				<li className={styles.listItem}>
 					<Link href='/contact-us'>Contact Us</Link>
