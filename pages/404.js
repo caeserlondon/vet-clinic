@@ -6,9 +6,11 @@ export default function NotFoundPage() {
 		<div className={styles.error}>
 			<h1>404</h1>
 			<h3>We are sorry, But the page you are looking for does not exist. </h3>
-			<Link href='/'>
-				<div className='btn'>Back To The Main Page</div>
-			</Link>
+			<div className={styles.button}>
+				<Link href='/'>
+					<div className='btn'>Back To The Main Page</div>
+				</Link>
+			</div>
 		</div>
 	)
 }
