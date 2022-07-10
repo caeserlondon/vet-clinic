@@ -1,0 +1,34 @@
+.container {
+	height: 250px;
+	background-color: var(--main-bg-color);
+	border-top: var(--border);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 18px;
+	padding: 50px;
+}
+.container h2 {
+	color: var(--primary-color);
+	font-size: 32px;
+	margin-bottom: 3px;
+}
+.container span {
+	color: var(--accent-color);
+}
+.container p {
+	margin-bottom: 18px;
+}
+
+.card {
+	margin-left: 20px;
+	text-align: center;
+}
+.media {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.cardItem {
+	margin: 15px 0;
+}
