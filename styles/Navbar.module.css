@@ -2,11 +2,13 @@
 	height: 65px;
 	background-color: var(--main-bg-color);
 	border: var(--border);
-	z-index: 999;
+	z-index: 99;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 100px;
+	position: fixed;
+	width: 100vw;
 }
 
 .container h2 {
