@@ -6,8 +6,18 @@ import Circle from './Circle'
 const Intro = () => {
 	return (
 		<div className={styles.container}>
-			<Circle backgroundColor='#009eff' left='-45vh' top='7vh' />
-			<Circle backgroundColor='#1E90FF' top='-45vh' right='-60vh' />
+			<Circle
+				backgroundColor='#009eff'
+				left='-45vh'
+				top='7vh'
+				borderRadius='50%'
+			/>
+			<Circle
+				backgroundColor='#1E90FF'
+				top='-45vh'
+				right='-60vh'
+				borderRadius='50%'
+			/>
 			<div className={styles.card}>
 				<h1 className={styles.title}>
 					Vet<span className={styles.brand}>Clinic</span>
@@ -17,8 +27,8 @@ const Intro = () => {
 					Our experienced veterinary team provides comprehensive medical care,
 					ranging from routine to advanced procedures and treatments.{' '}
 				</p>
-				<Link href='./products'>
-					<div className='btn'>Discover</div>
+				<Link href='/services/about-us'>
+					<div className='btn'>Discover More</div>
 				</Link>
 			</div>
 
