@@ -5,28 +5,29 @@ import Image from 'next/image'
 const Products = ({ products }) => {
 	return (
 		<div className={styles.container}>
-			<h1 className={styles.title}></h1>
+			<h1 className={styles.title}>Welcome To Our Clinic .</h1>
 			<h1 className={styles.subtitle}>Our Products And Services:</h1>
 			<div className={styles.products}>
 				{products.map((product) => (
-					<Link href={`/products/${product.name}`} key={product.id}>
+					<Link href={`/services/${product.name}`} key={product.id}>
 						<div className={styles.product}>
-							<span className={styles.category}>{products.title}</span>
+							<span className={styles.category}>{product.title}</span>
 							<div className={styles.media}>
-								{product.vedio ? (
+								{product.video ? (
 									<video
-										src={product.video}
+										src={`/images/${product.video}`}
 										autoPlay
 										loop
+										muted
 										className={styles.video}
 									/>
 								) : (
 									<Image
 										src={`/images/${product.photo}`}
-										width='100%'
-										height='100%'
+										width='90%'
+										height='90%'
 										layout='responsive'
-										objectFit='cover'
+										objectFit='fill'
 										alt={product.title}
 									/>
 								)}
