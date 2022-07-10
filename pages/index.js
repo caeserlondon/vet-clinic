@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Intro from '../components/Intro'
 import Products from '../components/Products.jsx'
+import Testimonials from '../components/Testimonials'
 import { data } from '../data'
 
 export default function Home({ products }) {
@@ -14,7 +15,10 @@ export default function Home({ products }) {
 			</Head>
 
 			<Intro />
+
 			<Products products={products} />
+
+			<Testimonials />
 		</div>
 	)
 }
