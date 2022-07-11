@@ -14,6 +14,7 @@ const Testimonials = () => {
 				borderRadius='35%'
 			/>
 			<h1 className={styles.title}>Testimonials</h1>
+
 			<div className={styles.wrapper}>
 				{users.map((user) => (
 					<div key={user.id} className={styles.card}>
