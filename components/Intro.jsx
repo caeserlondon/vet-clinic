@@ -27,7 +27,7 @@ const Intro = () => {
 					Our experienced veterinary team provides comprehensive medical care,
 					ranging from routine to advanced procedures and treatments.{' '}
 				</p>
-				<Link href='/services/about-us'>
+				<Link href='/services/about'>
 					<div className='btn'>Discover More</div>
 				</Link>
 			</div>
