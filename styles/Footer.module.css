@@ -29,6 +29,24 @@
 	justify-content: space-around;
 	align-items: center;
 }
+.media img {
+	cursor: pointer;
+}
+.media img:hover {
+	transform: scale(0.9);
+}
 .cardItem {
 	margin: 15px 0;
+}
+@media screen and (max-width: 480px) {
+	.container {
+		height: auto;
+		flex-direction: column;
+		padding: 5px;
+		padding-top: 15px;
+		font-size: 14px;
+	}
+	.card {
+		margin: 10px 0px;
+	}
 }
