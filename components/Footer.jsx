@@ -11,7 +11,7 @@ const Footer = () => {
 					Vet<span>Clinic</span>
 				</h2>
 				<p className={styles.slogan}> For all you veterinary needs.</p>
-				<Link href='/contact-us'>
+				<Link href='/contact'>
 					<div className='btn'>Contact Us</div>
 				</Link>
 			</div>
