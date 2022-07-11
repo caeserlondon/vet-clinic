@@ -58,3 +58,24 @@
 .product:hover .media {
 	transform: scale(1.02);
 }
+
+@media screen and (max-width: 480px) {
+	.container {
+		padding: 20px;
+	}
+
+	.title {
+		font-size: 22px;
+	}
+
+	.subtitle {
+		font-size: 18px;
+	}
+	.category {
+		font-size: 12px;
+	}
+	.product {
+		width: 300px;
+		height: 300px;
+	}
+}
