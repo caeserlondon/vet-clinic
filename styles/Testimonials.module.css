@@ -11,7 +11,7 @@
 
 .title {
 	text-align: center;
-	/* margin: 0; */
+	/* margin-top: -280px; */
 }
 
 .wrapper {
@@ -47,4 +47,26 @@
 }
 .jobtitle {
 	font-size: 15px;
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+		height: auto;
+		padding: 20px;
+	}
+
+	.title {
+		font-size: 30px;
+	}
+	.card {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 45px;
+	}
+	.comments {
+		font-size: 16px;
+		margin: 5px;
+	}
 }
