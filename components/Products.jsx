@@ -29,6 +29,7 @@ const Products = ({ products }) => {
 										layout='responsive'
 										objectFit='fill'
 										alt={product.title}
+										priority
 									/>
 								)}
 							</div>
