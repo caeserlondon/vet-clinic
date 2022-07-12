@@ -1,5 +1,5 @@
 .container {
-	height: 100vh;
+	height: 70vh;
 	position: relative;
 	overflow: hidden;
 	display: flex;
@@ -11,7 +11,6 @@
 
 .title {
 	text-align: center;
-	/* margin-top: -280px; */
 }
 
 .wrapper {
@@ -28,6 +27,7 @@
 	font-size: 20px;
 	font-weight: 300;
 	margin-bottom: 15px;
+	padding-top: 20px;
 }
 .person {
 	display: flex;
@@ -49,7 +49,7 @@
 	font-size: 15px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
 	.container {
 		height: auto;
 		padding: 20px;
@@ -68,5 +68,11 @@
 	.comments {
 		font-size: 16px;
 		margin: 5px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.circle {
+		display: none;
 	}
 }
