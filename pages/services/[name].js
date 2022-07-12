@@ -10,21 +10,23 @@ const Service = ({ service }) => {
 				{service.images.map((img) => (
 					<div key={img.id} className={styles.imgContainer}>
 						<Image
-							src={img.url}
+							src={`${process.env.NEXT_PUBLIC_URL}/images/${img.src}`}
 							alt='image'
 							width='100%'
 							height='100%'
-							objectFit='cover'
+							objectFit='fill'
+							layout='responsive'
+							priority
 						/>
 					</div>
 				))}
 			</div>
 			<div className={styles.cardsmall}>
 				<h1 className={styles.title}>{service.title}</h1>
-				<p className={styles.desc}>{service.desc}</p>
+				<p className={styles.desc}>{service.description}</p>
 				<div className={styles.button}>
-					<Link href='/contact-us'>
-						<div className='btn'>Contact Us</div>
+					<Link href='/contact'>
+						<div className='btn'>Make An Appointment</div>
 					</Link>
 				</div>
 			</div>
