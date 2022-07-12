@@ -34,24 +34,29 @@ const Footer = () => {
 
 				<div className={styles.media}>
 					<Image
-						src={'/images/facebook.png'}
+						src={process.env.NEXT_PUBLIC_URL + '/images/facebook.png'}
 						alt='facebook'
 						width='26'
 						height='26'
 					/>
 					<Image
-						src={'/images/twitter.png'}
+						src={process.env.NEXT_PUBLIC_URL + '/images/twitter.png'}
 						alt='twitter'
 						width='26'
 						height='26'
 					/>
 					<Image
-						src={'/images/instagram.png'}
+						src={process.env.NEXT_PUBLIC_URL + '/images/instagram.png'}
 						alt='instagram'
 						width='26'
 						height='26'
 					/>
-					<Image src={'/images/yelp.png'} alt='yelp' width='26' height='26' />
+					<Image
+						src={process.env.NEXT_PUBLIC_URL + '/images/yelp.png'}
+						alt='yelp'
+						width='26'
+						height='26'
+					/>
 				</div>
 				<div className={styles.cardItem}>
 					<p>Copyrights &copy; {footerYear}</p>
