@@ -1,3 +1,49 @@
 .container {
 	padding-top: 75px;
 }
+.about {
+	margin: 100px 65px;
+}
+.container h1 {
+	font-size: 62px;
+	margin: 24px;
+	color: var(--accent-color);
+}
+.container h2 {
+	font-size: 48px;
+	margin: 24px;
+	color: var(--primary-color);
+}
+.container h2 span {
+	font-size: 48px;
+	margin: 24px;
+	color: red;
+}
+.container h3 {
+	font-size: 52px;
+	text-transform: uppercase;
+	color: var(--accent-color);
+	margin: 24px;
+}
+
+@media screen and (max-width: 768px) {
+	.about {
+		margin: 20px;
+	}
+	.container h1,
+	.container h2,
+	.container h3 {
+		font-size: 35px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.about {
+		margin: 10px;
+	}
+
+	.container h1,
+	.container h2,
+	.container h3 {
+		font-size: 25px;
+	}
+}
