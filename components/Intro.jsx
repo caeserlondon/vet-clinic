@@ -35,11 +35,11 @@ const Intro = () => {
 			<div className={styles.card}>
 				<div>
 					<Image
-						src='/images/intro.png'
+						src={process.env.NEXT_PUBLIC_URL + '/images/intro.png'}
 						width='100%'
 						height='100%'
 						layout='responsive'
-						priority='low'
+						priority
 						alt='intro'
 					/>
 				</div>
