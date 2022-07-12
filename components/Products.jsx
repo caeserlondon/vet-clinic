@@ -1,6 +1,5 @@
 import styles from '../styles/Products.module.css'
 import Link from 'next/link'
-import Image from 'next/image'
 
 const Products = ({ products }) => {
 	return (
@@ -13,25 +12,13 @@ const Products = ({ products }) => {
 						<div className={styles.product}>
 							<span className={styles.category}>{product.title}</span>
 							<div className={styles.media}>
-								{product.video ? (
-									<video
-										src={`/images/${product.video}`}
-										autoPlay
-										loop
-										muted
-										className={styles.video}
-									/>
-								) : (
-									<Image
-										src={`/images/${product.photo}`}
-										width='90%'
-										height='90%'
-										layout='responsive'
-										objectFit='fill'
-										alt={product.title}
-										priority
-									/>
-								)}
+								<video
+									src={`/images/${product.video}`}
+									autoPlay
+									loop
+									muted
+									className={styles.video}
+								/>
 							</div>
 						</div>
 					</Link>
