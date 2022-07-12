@@ -13,14 +13,14 @@ const contact = () => {
 					left='-45vh'
 					top='7vh'
 					borderRadius='50%'
-					z-index='-1'
+					zIndex='-1'
 				/>
 				<Circle
 					backgroundColor='#1E90FF'
 					top='-45vh'
 					right='-60vh'
 					borderRadius='50%'
-					z-index='-1'
+					zIndex='-1'
 					filter='blur(28px)'
 				/>
 				<Circle
@@ -28,7 +28,7 @@ const contact = () => {
 					top='-35vh'
 					right='-50vh'
 					borderRadius='50%'
-					z-index='-1'
+					zIndex='-1'
 				/>
 				<h1 className={styles.title}>Get In Touch</h1>
 				<form className={styles.form} onSubmit={onSubmit}>
