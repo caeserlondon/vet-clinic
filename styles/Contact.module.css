@@ -54,3 +54,16 @@
 	border: none;
 	background-color: transparent;
 }
+
+@media screen and (max-width: 768px) {
+	.title {
+		font-size: 35px;
+		margin: 28px;
+	}
+	.form {
+		width: 100%;
+	}
+	.inputsmall:first-child {
+		margin-right: 0;
+	}
+}
