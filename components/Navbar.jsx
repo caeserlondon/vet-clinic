@@ -37,7 +37,11 @@ const Navbar = () => {
 				<div className={styles.line} />
 				<div className={styles.line} />
 			</div>
-			<ul className={styles.menulist} style={{ right: open ? '0px' : '-50vw' }}>
+			<ul
+				className={styles.menulist}
+				onClick={() => setOpen(false)}
+				style={{ right: open ? '0px' : '-50vw' }}
+			>
 				<li className={styles.menulistItem}>
 					<div className='btn' onClick={() => setOpen(!open)}>
 						Close The Menu
