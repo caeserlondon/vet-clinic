@@ -29,7 +29,7 @@ const Navbar = () => {
 					<Link href='/services/about'>About Us</Link>
 				</li>
 				<li className={styles.listItem}>
-					<Link href='/contact'>Contact Us</Link>
+					<Link href='/services/contact'>Contact Us</Link>
 				</li>
 			</ul>
 			<div className={styles.menu} onClick={() => setOpen(!open)}>
