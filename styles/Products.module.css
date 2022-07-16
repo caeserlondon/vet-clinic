@@ -23,6 +23,7 @@
 .product {
 	width: 600px;
 	height: 600px;
+	border-radius: 12%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -34,7 +35,7 @@
 .media {
 	width: 85%;
 	height: 85%;
-	border-radius: 50%;
+	border-radius: 10%;
 	overflow: hidden;
 	transition: all 0.4s ease-in-out;
 }
@@ -48,7 +49,7 @@
 .category {
 	position: absolute;
 	top: 10px;
-	left: 10px;
+	left: 78px;
 	color: var(--primary-color);
 	letter-spacing: 3px;
 	font-weight: 300;
