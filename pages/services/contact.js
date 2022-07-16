@@ -1,5 +1,5 @@
-import styles from '../styles/Contact.module.css'
-import Circle from '../components/Circle'
+import styles from '../../styles/Contact.module.css'
+import Circle from '../../components/Circle'
 
 const contact = () => {
 	const onSubmit = () => {
