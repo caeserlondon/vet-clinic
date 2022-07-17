@@ -30,6 +30,7 @@
 	margin-bottom: 50px;
 	background-color: var(--body-bg-color);
 	position: relative;
+	cursor: pointer;
 }
 
 .media {
@@ -52,12 +53,12 @@
 	left: 78px;
 	color: var(--primary-color);
 	letter-spacing: 3px;
-	font-weight: 300;
+	font-weight: 500;
 	text-transform: uppercase;
 }
 
 .product:hover .media {
-	transform: scale(1.02);
+	transform: scale(1.06);
 }
 
 @media screen and (max-width: 480px) {
