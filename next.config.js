@@ -2,8 +2,10 @@
 const nextConfig = {
 	reactStrictMode: true,
 	images: {
-		domains: ['images.pexels.com'],
+		domains: ['ceaser-vet-clinic.vercel.app'],
 	},
+	loader: 'imgix',
+	path: '',
 }
 
 module.exports = nextConfig
