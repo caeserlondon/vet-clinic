@@ -1,11 +1,19 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-	reactStrictMode: true,
-	images: {
-		domains: ['ceaser-vet-clinic.vercel.app'],
-		loader: 'imgix',
-		path: '',
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+// 	reactStrictMode: true,
+// 	images: {
+// 		domains: ['ceaser-vet-clinic.vercel.app'],
+// 	},
+// 	loader: 'imgix',
+// 	path: '',
+// }
+
+// module.exports = nextConfig
+
+module.exports = {
+	experimental: {
+		images: {
+			unoptimized: true,
+		},
 	},
 }
-
-module.exports = nextConfig
