@@ -119,6 +119,12 @@ export const data = [
 		title: 'About Us',
 		video: 'about.mp4',
 	},
+	{
+		id: 5,
+		name: 'contact',
+		title: 'contact Us',
+		video: 'contact.mp4',
+	},
 ]
 
 export const users = [
