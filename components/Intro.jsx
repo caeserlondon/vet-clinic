@@ -1,6 +1,6 @@
 import styles from '../styles/Intro.module.css'
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Circle from './Circle'
 
 const Intro = () => {
@@ -34,7 +34,8 @@ const Intro = () => {
 
 			<div className={styles.card}>
 				<div>
-					<Image
+					{/* <Image */}
+					<img
 						src={process.env.NEXT_PUBLIC_URL + '/images/intro.png'}
 						width='100%'
 						height='100%'

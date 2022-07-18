@@ -1,7 +1,7 @@
 import { users } from '../data'
 import styles from '../styles/Testimonials.module.css'
 import Circle from './Circle'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 const Testimonials = () => {
 	return (
@@ -20,7 +20,8 @@ const Testimonials = () => {
 			<div className={styles.wrapper}>
 				{users.map((user) => (
 					<div key={user.id} className={styles.card}>
-						<Image
+						{/* <Image */}
+						<img
 							src={`${process.env.NEXT_PUBLIC_URL}/images/${user.logo}`}
 							alt='user logo'
 							width='30'
@@ -28,7 +29,8 @@ const Testimonials = () => {
 						/>
 						<p className={styles.comments}>{user.comment}</p>
 						<div className={styles.person}>
-							<Image
+							{/* <Image */}
+							<img
 								src={`${process.env.NEXT_PUBLIC_URL}/images/${user.avatar}`}
 								alt='user photo'
 								width='45'

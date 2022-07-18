@@ -1,6 +1,6 @@
 import styles from '../../styles/Service.module.css'
 import { data } from '../../data'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
 
 const Service = ({ service }) => {
@@ -9,7 +9,8 @@ const Service = ({ service }) => {
 			<div className={styles.cardlarge}>
 				{service.images.map((img) => (
 					<div key={img.id} className={styles.imgContainer}>
-						<Image
+						{/* <Image */}
+						<img
 							src={`${process.env.NEXT_PUBLIC_URL}/images/${img.src}`}
 							alt='image'
 							width='100%'
