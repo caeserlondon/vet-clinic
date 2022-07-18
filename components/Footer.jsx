@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from '../styles/Footer.module.css'
-// import Image from 'next/image'
+import Image from 'next/image'
 
 const Footer = () => {
 	const footerYear = new Date().getFullYear()
@@ -33,29 +33,25 @@ const Footer = () => {
 				</div>
 
 				<div className={styles.media}>
-					{/* <Image */}
-					<img
+					<Image
 						src={process.env.NEXT_PUBLIC_URL + '/images/facebook.png'}
 						alt='facebook'
 						width='26'
 						height='26'
 					/>
-					{/* <Image */}
-					<img
+					<Image
 						src={process.env.NEXT_PUBLIC_URL + '/images/twitter.png'}
 						alt='twitter'
 						width='26'
 						height='26'
 					/>
-					{/* <Image */}
-					<img
+					<Image
 						src={process.env.NEXT_PUBLIC_URL + '/images/instagram.png'}
 						alt='instagram'
 						width='26'
 						height='26'
 					/>
-					{/* <Image */}
-					<img
+					<Image
 						src={process.env.NEXT_PUBLIC_URL + '/images/yelp.png'}
 						alt='yelp'
 						width='26'
