@@ -113,6 +113,27 @@ export const data = [
 			},
 		],
 	},
+]
+
+export const links = [
+	{
+		id: 1,
+		name: 'health-checks',
+		title: 'Health Checks',
+		video: 'health-checks/health-checks.mp4',
+	},
+	{
+		id: 2,
+		name: 'pet-care',
+		title: 'Pet Care',
+		video: 'pet-care/pet-care.mp4',
+	},
+	{
+		id: 3,
+		name: 'surgery',
+		title: 'Surgery',
+		video: 'surgery/surgery.mp4',
+	},
 	{
 		id: 4,
 		name: 'about',

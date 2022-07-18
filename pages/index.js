@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Intro from '../components/Intro'
 import Products from '../components/Products.jsx'
 import Testimonials from '../components/Testimonials'
-import { data } from '../data'
+import { links } from '../data'
 
 export default function Home({ products }) {
 	// console.log(services)
@@ -24,7 +24,7 @@ export default function Home({ products }) {
 }
 
 export const getStaticProps = () => {
-	const products = data
+	const products = links
 
 	return {
 		props: { products },
