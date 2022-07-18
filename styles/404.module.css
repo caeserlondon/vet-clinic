@@ -9,13 +9,13 @@
 .error h1 {
 	color: var(--accent-color);
 	font-size: 95px;
-	margin-top: 240px;
+	margin-top: 220px;
 	margin-bottom: 145px;
 }
 
 .error h3 {
 	color: var(--primary-color);
-	margin: 85px;
+	margin: 15px;
 }
 
 .button {

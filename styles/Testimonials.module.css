@@ -35,6 +35,7 @@
 }
 .avatar {
 	border-radius: 50%;
+	background-size: cover;
 }
 .info {
 	display: flex;

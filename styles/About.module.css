@@ -1,17 +1,17 @@
 .container {
-	padding-top: 75px;
+	padding-top: 78px;
 }
 .about {
-	margin: 100px 65px;
+	margin: 85px 65px;
 }
 .container h1 {
-	font-size: 62px;
+	font-size: 52px;
 	margin: 24px;
 	color: var(--accent-color);
 }
 .container h2 {
-	font-size: 48px;
-	margin: 24px;
+	font-size: 30px;
+	margin: 54px;
 	color: var(--primary-color);
 }
 .container h2 span {
@@ -27,23 +27,34 @@
 }
 
 @media screen and (max-width: 768px) {
+	.container {
+		padding-top: 20px;
+	}
+
 	.about {
-		margin: 20px;
+		margin: 0;
 	}
 	.container h1,
 	.container h2,
+	.container h2 span,
 	.container h3 {
-		font-size: 35px;
+		font-size: 25px;
 	}
 }
 @media screen and (max-width: 480px) {
+	.container {
+		padding: 0;
+	}
+
 	.about {
-		margin: 10px;
+		margin: 0;
 	}
 
 	.container h1,
 	.container h2,
+	.container h2 span,
 	.container h3 {
-		font-size: 25px;
+		font-size: 20px;
+		margin: 20px;
 	}
 }
