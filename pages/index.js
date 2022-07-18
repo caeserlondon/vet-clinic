@@ -11,7 +11,7 @@ export default function Home({ products }) {
 			<Head>
 				<title>Vet Clinic</title>
 				<meta name='description' content='Created by CaeserLondon' />
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/imgaes/favicon.ico' />
 			</Head>
 
 			<Intro />
