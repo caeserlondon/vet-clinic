@@ -2,7 +2,7 @@
 
 ### Building a Vet clinic web site with Next V12.2 and React V18.2
 
-#### Using stock photos and videos pexels.com
+#### Using stock photos and videos from www.pexels.com
 
 ### https://caeser-vet-clinic.vercel.app
 
