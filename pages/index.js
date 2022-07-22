@@ -9,7 +9,10 @@ export default function Home({ products }) {
 		<div>
 			<Head>
 				<title>Vet Clinic</title>
-				<meta name='description' content='Created by CaeserLondon' />
+				<meta
+					name='description'
+					content='Veterinary Clinic website created by Caeser Ibrahim'
+				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
